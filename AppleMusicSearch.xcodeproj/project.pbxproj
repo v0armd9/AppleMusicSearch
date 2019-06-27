@@ -13,6 +13,8 @@
 		2C47548D22C522780013F5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C47548B22C522780013F5F5 /* LaunchScreen.storyboard */; };
 		2C47549B22C525800013F5F5 /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47549A22C525800013F5F5 /* AppleItemTableViewCell.swift */; };
 		2C47549D22C525DA0013F5F5 /* AppleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47549C22C525DA0013F5F5 /* AppleItemTableViewController.swift */; };
+		2C47549F22C529A90013F5F5 /* AppleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47549E22C529A90013F5F5 /* AppleItem.swift */; };
+		2C4754A122C52C350013F5F5 /* AppleItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4754A022C52C350013F5F5 /* AppleItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C47548E22C522780013F5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C47549A22C525800013F5F5 /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
 		2C47549C22C525DA0013F5F5 /* AppleItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewController.swift; sourceTree = "<group>"; };
+		2C47549E22C529A90013F5F5 /* AppleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItem.swift; sourceTree = "<group>"; };
+		2C4754A022C52C350013F5F5 /* AppleItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		2C47549522C522DC0013F5F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2C47549E22C529A90013F5F5 /* AppleItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		2C47549822C522EE0013F5F5 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C4754A022C52C350013F5F5 /* AppleItemController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -187,8 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C47548322C522760013F5F5 /* AppDelegate.swift in Sources */,
+				2C4754A122C52C350013F5F5 /* AppleItemController.swift in Sources */,
 				2C47549B22C525800013F5F5 /* AppleItemTableViewCell.swift in Sources */,
 				2C47549D22C525DA0013F5F5 /* AppleItemTableViewController.swift in Sources */,
+				2C47549F22C529A90013F5F5 /* AppleItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
